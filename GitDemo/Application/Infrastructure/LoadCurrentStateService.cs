@@ -11,7 +11,7 @@ public class LoadCurrentStateService : ILoadCurrentStateService
 		for (var i = 0; i < 6; i++)
 		{
 			var elevatorCurrent = new Elevator(i);
-			var fileName = $"elevator_{i}_state.txt";
+			var fileName = $"elevator_{i}_stssate.txt";
 			if (File.Exists(fileName))
 			{
 				using var reader = new StreamReader(fileName);
