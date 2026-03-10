@@ -10,4 +10,6 @@ public class Elevator(int number)
     public int NumberOfPeople { get; set; } = 0;
     public bool Busy { get; set; } = false;
     public string StatusMessage { get; set; } = "";
+    public string Zin { get; set; } = "";
+    public string Chris { get; set; } = "";
 }
