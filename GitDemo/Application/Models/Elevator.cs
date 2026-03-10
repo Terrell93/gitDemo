@@ -11,4 +11,6 @@ public class Elevator(int number)
     public string StatusMessage { get; set; } = "";
     public string Age { get; set; } = "";
     public string Height { get; set; } = "";
+    public string Zin { get; set; } = "";
+    public string Chris { get; set; } = "";
 }
