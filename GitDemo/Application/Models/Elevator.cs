@@ -7,9 +7,10 @@ public class Elevator(int number)
     public int CurrentFloor { get; set; } = 1;
     public int TargetFloor { get; set; }
     public int MaxWeight { get; set; } = 600;
-    public int NumberOfPeople { get; set; } = 0;
     public bool Busy { get; set; } = false;
     public string StatusMessage { get; set; } = "";
+    public string Age { get; set; } = "";
+    public string Height { get; set; } = "";
     public string Zin { get; set; } = "";
     public string Chris { get; set; } = "";
 }
